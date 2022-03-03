@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangles - Calculator</title>
+    <!--Enlace-Estilos-->
+    <link rel ="shortcut icon" href="/EJER1/images/triangulo.png" type="image/x-icon">
+    <link rel= "stylesheet" href="/EJER1/triangle.css">
+</head>
+<body>
+    <div id="container">
+    <h1>Programa que te dice si un triángulo es equilátero, isósceles o escaleno</h1>
+
+    <form action="">
+        <label for="lado1">Lado 1:</label>
+        <input type="number" id="lado1" placeholder=" en cm"> * <br><br>
+        <label for="lado2">Lado 2:</label>
+        <input type="number" id="lado2" placeholder=" en cm"> * <br><br>
+        <label for="lado3">Lado 3:</label>
+        <input type="number" id="lado3" placeholder=" en cm"> * <br><br>
+    </form>
+    
+    <button onclick="triangulos()">Calcular</button>
+    <p id="solucion"></p>
+    <p id="error"></p>
+
+    <button type="button" onclick="prompter()">Te saludo?</button>
+    
+    </div>
+    <!--JS-->
+    <script src="/EJER1/triangle.js"></script>
+</body>
+</html>
