@@ -1,5 +1,5 @@
 body {
-    background-image: url('images/HD-wallpaper-black-3d-squares-geometric-patterns-squares-backgrounds-3d-squares-white-abstract-background-3d-squares-textures-squares-textures-background-with-squares.jpg');
+    background-image: url('./images/HD-wallpaper-black-3d-squares-geometric-patterns-squares-backgrounds-3d-squares-white-abstract-background-3d-squares-textures-squares-textures-background-with-squares.jpg');
     background-size: 40%;
     font-size:smaller;
 }
@@ -20,7 +20,7 @@ body {
 }
 
 #container{
-    background-image: url('images/background-texture-dark-square-wallpaper-preview.jpg');
+    background-image: url('./images/background-texture-dark-square-wallpaper-preview.jpg');
     width: 75%;
     margin: 80px auto;
     border-radius: 80px;
